@@ -225,7 +225,7 @@
 								<div class="playlist-content">
 									<ul class="list-unstyled">
 										<?php
-											$db = mysqli_connect("localhost","root","","sdlc");
+											$db = mysqli_connect("18.218.33.185","khangan07","123456","khangan");
 											$qr = "SELECT * FROM song LIMIT 8";
 											$rs = mysqli_query($db, $qr);
 											while($row = mysqli_fetch_assoc($rs)){
