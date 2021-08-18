@@ -3,7 +3,7 @@ session_start();
 if($_SERVER['REQUEST_METHOD']=="POST"){
     $name=$_POST["name"];
 $pass=$_POST["pass"];
-$db=mysqli_connect("localhost","root", "", "sdlc");
+$db=mysqli_connect("172.31.29.244","khangan07", "123456", "khangan");
 $sql="SELECT * FROM userr WHERE User_name='$name' AND Password='$pass'";
 $rs=mysqli_query($db, $sql);
 $user = mysqli_fetch_assoc($rs);
