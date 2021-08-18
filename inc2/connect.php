@@ -1,5 +1,5 @@
 <?php
- $servername = "18.218.33.185";
+ $servername = "172.31.29.244";
  $username = "khangan07";
  $pass = "123456";
  $dbname = "khangan";
