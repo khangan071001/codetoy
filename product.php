@@ -82,7 +82,7 @@ session_start();
 		<div class="product-group">
 			<div class="row">
       <?php
-				$db = mysqli_connect("localhost","root","","sdlc");
+				$db = mysqli_connect("18.218.33.185","khangan07","123456","khangan");
 				$rt = "SELECT * FROM song LIMIT 12";
 				$hi = mysqli_query($db, $rt);
 				while($av = mysqli_fetch_assoc($hi)){
